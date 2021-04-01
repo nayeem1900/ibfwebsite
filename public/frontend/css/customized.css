@@ -1,0 +1,42 @@
+
+.container-fluid{
+    background: #33DDFF;
+}
+.card-header{
+    background:#33DDFF;
+}
+.footer_part{
+
+    background:#2F3A3D ;
+    padding:50px 10px ;
+}
+.social{
+
+}
+.social ul li{
+text-decoration: none;
+    display: inline-block;
+}
+.social ul li a{
+  border-radius: 50px;
+}
+.social ul li a i{
+border-radius: 50px;
+padding: 10px;
+background:#1225E8 ;
+    collapse: #051185;
+}
+.social ul li a i:hover{
+    padding: 15px;
+    background:#1225E8 ;
+    collapse: #051185;
+}
+
+.etender{
+    text-align: center;
+}
+
+
+
+
+
