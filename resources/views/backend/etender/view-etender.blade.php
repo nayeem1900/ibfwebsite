@@ -53,7 +53,7 @@
                                         <th>Deadline</th>
                                         <th>Title</th>
                                         <th>Download</th>
-
+                                        <th>Download1</th>
                                         <th>Action</th>
                                     </tr>
                                     </thead>
@@ -67,6 +67,7 @@
 
 
                                             <td><img src="{{(!empty($etender->t_download))?url('public/upload/etender_images/'.$etender->t_download):url('public/upload/no_img.png')}}"></td>
+                                            <td> </td>
 
                                             <td>
                                                 <a title="Edit" class="btn btn-sm btn-primary" href="{{route('etenders.edit',$etender->id)}}"><i class="fa fa-edit"></i></a>

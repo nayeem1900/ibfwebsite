@@ -3,9 +3,11 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
+use App\Model\Etender;
 use App\Model\Logo;
 use App\Model\Slider;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class FrontendController extends Controller
 {
@@ -30,7 +32,10 @@ class FrontendController extends Controller
     }
 
     public function etender(){
+
         $data['logo']=Logo::first();
+        $data['allData']=Etender::all();
+
         return view('frontend.pages.etender',$data);
     }
 }

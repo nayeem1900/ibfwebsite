@@ -73,6 +73,7 @@ Route::group(['middleware'=>'auth'],function (){
         Route::get('/edit/{id}', 'Backend\EtenderController@edit')->name('etenders.edit');
         Route::post('/update/{id}', 'Backend\EtenderController@update')->name('etenders.update');
         Route::post('/delete/{id}', 'Backend\EtenderController@delete')->name('etenders.delete');
+        Route::post('/download', 'Backend\EtenderController@download')->name('etenders.download');
     });
 
 });

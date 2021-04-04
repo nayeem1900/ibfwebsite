@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Model\Etender;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-
+use DB;
 class EtenderController extends Controller
 {
     public function view()
@@ -87,6 +87,13 @@ class EtenderController extends Controller
         }
         $etender->delete();
         return redirect()->route('etenders.view')->with('success', 'Data Deleted successfully');
+    }
+
+    public function download(){
+
+$downloads=DB::table('etenders')->get();
+        return view('backend.etender.download',compact('downloads'));
+
     }
 
 }

@@ -95,7 +95,7 @@
                                     <li class="list-group-item"><a href="http://114.129.9.39:8080/accounts/users/login">Accounts</a></li>
                                     <li class="list-group-item"><a href="http://114.129.9.63/PmisReport/">PMIS</a></li>
                                     <li class="list-group-item"><a href="http://114.129.9.63/leave/">Leave</a></li>
-                                    <li class="list-group-item">Islami Bank Bangladesh</li>
+                                    <li class="list-group-item"><a href="https://www.islamibankbd.com/">Islami Bank Bangladesh</a> </li>
 
 
                                 </ul>
