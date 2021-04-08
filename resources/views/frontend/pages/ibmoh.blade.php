@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Medilab Bootstrap Template - Index</title>
+    <title>Islami Bank Hospital Motijheel</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="{{url('public/hospital/img/favicon.png')}}" rel="icon">
+    <link href="{{url('public/hospital/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -19,15 +19,15 @@
     <!-- Vendor CSS Files -->
     <link href="{{asset('public/hospital/vendor/animate.css/animate.min.css')}}" rel="stylesheet">
     <link href="{{asset('public/hospital/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="{{asset('public/hospital/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
+    <link href="{{asset('public/hospital/vendor/boxicons/css/boxicons.min.css" rel="stylesheet')}}">
+    <link href="{{asset('public/hospital/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet">
+    <link href="{{asset('public/hospital/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
+    <link href="{{asset('public/hospital/vendor/remixicon/remixicon.css')}}" rel="stylesheet">
+    <link href="{{asset('public/hospital/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="{{asset('public/hospital/css/style.css')}}" rel="stylesheet">
 
     <!-- =======================================================
     * Template Name: Medilab - v4.1.0
@@ -43,14 +43,14 @@
 <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex justify-content-between">
         <div class="contact-info d-flex align-items-center">
-            <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">contact@example.com</a>
-            <i class="bi bi-phone"></i> +1 5589 55488 55
+            <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">ibhdhaka@gmail.com</a>
+            <i class="bi bi-phone"></i> +02-58311740, 58311743
         </div>
         <div class="d-none d-lg-flex social-links align-items-center">
             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
             <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
         </div>
     </div>
 </div>
@@ -59,13 +59,13 @@
 <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-        <h1 class="logo me-auto"><a href="index.html">Medilab</a></h1>
+        <h1 class="logo me-auto"><a href="{{route('index')}}">HOME</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
-                <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                <li><a class="nav-link scrollto active" href="{{route('index')}}">Home</a></li>
                 <li><a class="nav-link scrollto" href="#about">About</a></li>
                 <li><a class="nav-link scrollto" href="#services">Services</a></li>
                 <li><a class="nav-link scrollto" href="#departments">Departments</a></li>
@@ -100,8 +100,8 @@
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex align-items-center">
     <div class="container">
-        <h1>Welcome to Medilab</h1>
-        <h2>We are team of talented designers making websites with Bootstrap</h2>
+        <h1>Welcome to Islami Bank Hospital Motijheel</h1>
+        <h2>We are team of talented doctors making your life happiness</h2>
         <a href="#about" class="btn-get-started scrollto">Get Started</a>
     </div>
 </section><!-- End Hero -->
@@ -115,10 +115,9 @@
             <div class="row">
                 <div class="col-lg-4 d-flex align-items-stretch">
                     <div class="content">
-                        <h3>Why Choose Medilab?</h3>
+                        <h3>Why Choose Islami Bank Hospital, Motijheel?</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                            Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+                            Our group of hospitals provide a huge range of clinical services to people in Bangladesh. Million people look to our services to provide them with the healthcare they need.
                         </p>
                         <div class="text-center">
                             <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
@@ -309,7 +308,7 @@
                 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
             </div>
 
-            <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
+            <form action="" method="post" role="form" class="php-email-form">
                 <div class="row">
                     <div class="col-md-4 form-group">
                         <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
@@ -403,7 +402,7 @@
                                     <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
                                 </div>
                                 <div class="col-lg-4 text-center order-1 order-lg-2">
-                                    <img src="assets/img/departments-1.jpg" alt="" class="img-fluid">
+                                    <img src="{{url('public/hospital/img/departments-1.jpg')}}" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -415,7 +414,7 @@
                                     <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
                                 </div>
                                 <div class="col-lg-4 text-center order-1 order-lg-2">
-                                    <img src="assets/img/departments-2.jpg" alt="" class="img-fluid">
+                                    <img src="{{url('public/hospital/img/departments-2.jpg')}}" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -427,7 +426,7 @@
                                     <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
                                 </div>
                                 <div class="col-lg-4 text-center order-1 order-lg-2">
-                                    <img src="assets/img/departments-3.jpg" alt="" class="img-fluid">
+                                    <img src="{{url('public/hospital/img/departments-3.jpg')}}" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -439,7 +438,7 @@
                                     <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
                                 </div>
                                 <div class="col-lg-4 text-center order-1 order-lg-2">
-                                    <img src="assets/img/departments-4.jpg" alt="" class="img-fluid">
+                                    <img src="{{url('public/hospital/img/departments-4.jpg')}}" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -451,7 +450,7 @@
                                     <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
                                 </div>
                                 <div class="col-lg-4 text-center order-1 order-lg-2">
-                                    <img src="assets/img/departments-5.jpg" alt="" class="img-fluid">
+                                    <img src="{{url('public/hospital/img/departments-5.jpg')}}" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -475,7 +474,7 @@
 
                 <div class="col-lg-6">
                     <div class="member d-flex align-items-start">
-                        <div class="pic"><img src="assets/img/doctors/doctors-1.jpg" class="img-fluid" alt=""></div>
+                        <div class="pic"><img src="{{url('public/hospital/img/doctors/doctors-1.jpg')}}" class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>Walter White</h4>
                             <span>Chief Medical Officer</span>
@@ -492,7 +491,7 @@
 
                 <div class="col-lg-6 mt-4 mt-lg-0">
                     <div class="member d-flex align-items-start">
-                        <div class="pic"><img src="assets/img/doctors/doctors-2.jpg" class="img-fluid" alt=""></div>
+                        <div class="pic"><img src="{{url('public/hospital/img/doctors/doctors-2.jpg')}}" class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>Sarah Jhonson</h4>
                             <span>Anesthesiologist</span>
@@ -509,7 +508,7 @@
 
                 <div class="col-lg-6 mt-4">
                     <div class="member d-flex align-items-start">
-                        <div class="pic"><img src="assets/img/doctors/doctors-3.jpg" class="img-fluid" alt=""></div>
+                        <div class="pic"><img src="{{url('public/hospital/img/doctors/doctors-3.jpg')}}" class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>William Anderson</h4>
                             <span>Cardiology</span>
@@ -526,7 +525,7 @@
 
                 <div class="col-lg-6 mt-4">
                     <div class="member d-flex align-items-start">
-                        <div class="pic"><img src="assets/img/doctors/doctors-4.jpg" class="img-fluid" alt=""></div>
+                        <div class="pic"><img src="{{url('public/hospital/img/doctors/doctors-4.jpg')}}" class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>Amanda Jepson</h4>
                             <span>Neurosurgeon</span>
@@ -618,7 +617,7 @@
                     <div class="swiper-slide">
                         <div class="testimonial-wrap">
                             <div class="testimonial-item">
-                                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                                <img src="{{url('public/hospital/img/testimonials/testimonials-1.jpg')}}" class="testimonial-img" alt="">
                                 <h3>Saul Goodman</h3>
                                 <h4>Ceo &amp; Founder</h4>
                                 <p>
@@ -703,7 +702,7 @@
 
             <div class="section-title">
                 <h2>Gallery</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <p>Islami Bank Hospital Centre of execellence</p>
             </div>
         </div>
 
@@ -712,64 +711,64 @@
 
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="{{url('public/hospital/assets/img/gallery/gallery-1.jpg')}}" class="galelry-lightbox">
-                            <img src="{{url('public/hospital/assets/img/gallery/gallery-1.jpg')}}" alt="" class="img-fluid">
+                        <a href="{{url('public/hospital/img/gallery/gallery-1.jpg')}}" class="galelry-lightbox">
+                            <img src="{{url('public/hospital/img/gallery/gallery-1.jpg')}}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="{{url('public/hospital/assets/img/gallery/gallery-2.jpg')}}" class="galelry-lightbox">
-                            <img src="{{url('public/hospital/assets/img/gallery/gallery-2.jpg')}}" alt="" class="img-fluid">
+                        <a href="{{url('public/hospital/img/gallery/gallery-2.jpg')}}" class="galelry-lightbox">
+                            <img src="{{url('public/hospital/img/gallery/gallery-2.jpg')}}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="assets/img/gallery/gallery-3.jpg" class="galelry-lightbox">
-                            <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+                        <a href="{{url('public/hospital/img/gallery/gallery-3.jpg')}}" class="galelry-lightbox">
+                            <img src="{{url('public/hospital/img/gallery/gallery-3.jpg')}}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="assets/img/gallery/gallery-4.jpg" class="galelry-lightbox">
-                            <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+                        <a href="{{url('public/hospital/img/gallery/gallery-4.jpg')}}" class="galelry-lightbox">
+                            <img src="{{url('public/hospital/img/gallery/gallery-4.jpg')}}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="assets/img/gallery/gallery-5.jpg" class="galelry-lightbox">
-                            <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+                        <a href="{{url('public/hospital/img/gallery/gallery-5.jpg')}}" class="galelry-lightbox">
+                            <img src="{{url('public/hospital/img/gallery/gallery-5.jpg')}}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="assets/img/gallery/gallery-6.jpg" class="galelry-lightbox">
-                            <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+                        <a href="{{url('public/hospital/img/gallery/gallery-6.jpg')}}" class="galelry-lightbox">
+                            <img src="{{url('public/hospital/img/gallery/gallery-6.jpg')}}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="assets/img/gallery/gallery-7.jpg" class="galelry-lightbox">
-                            <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
+                        <a href="{{url('public/hospital/img/gallery/gallery-7.jpg')}}" class="galelry-lightbox">
+                            <img src="{{url('public/hospital/img/gallery/gallery-7.jpg')}}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item">
-                        <a href="assets/img/gallery/gallery-8.jpg" class="galelry-lightbox">
-                            <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+                        <a href="{{url('public/hospital/img/gallery/gallery-8.jpg')}}" class="galelry-lightbox">
+                            <img src="{{url('public/hospital/img/gallery/gallery-8.jpg')}}" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -785,7 +784,7 @@
 
             <div class="section-title">
                 <h2>Contact</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <p>24 / B, Outer Circular Road, Motijheel, Dhaka-1000</p>
             </div>
         </div>
 
@@ -801,7 +800,8 @@
                         <div class="address">
                             <i class="bi bi-geo-alt"></i>
                             <h4>Location:</h4>
-                            <p>A108 Adam Street, New York, NY 535022</p>
+                            <p>24 / B, Outer Circular Road, Motijheel, Dhaka-1000
+                                Phone:+02-58311740, 58311743</p>
                         </div>
 
                         <div class="email">
@@ -910,14 +910,14 @@
 
         <div class="me-md-auto text-center text-md-start">
             <div class="copyright">
-                &copy; Copyright <strong><span>Medilab</span></strong>. All Rights Reserved
+                &copy; Copyright <strong><span>IBF IT</span></strong>. All Rights Reserved
             </div>
             <div class="credits">
                 <!-- All the links in the footer should remain intact. -->
                 <!-- You can delete the links only if you purchased the pro version. -->
                 <!-- Licensing information: https://bootstrapmade.com/license/ -->
                 <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/ -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                Designed by <a href="">IBF IT Department</a>
             </div>
         </div>
         <div class="social-links text-center text-md-right pt-3 pt-md-0">
@@ -934,14 +934,14 @@
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 <!-- Vendor JS Files -->
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script>
-<script src="assets/vendor/purecounter/purecounter.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="{{asset('public/hospital/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<script src="{{asset('public/hospital/vendor/glightbox/js/glightbox.min.js')}}"></script>
+<script src="{{asset('public/hospital/vendor/php-email-form/validate.js')}}"></script>
+<script src="{{asset('public/hospital/vendor/purecounter/purecounter.js')}}"></script>
+<script src="{{asset('public/hospital/vendor/swiper/swiper-bundle.min.js')}}"></script>
 
 <!-- Template Main JS File -->
-<script src="assets/js/main.js"></script>
+<script src="{{asset('public/hospital/js/main.js')}}"></script>
 
 </body>
 
