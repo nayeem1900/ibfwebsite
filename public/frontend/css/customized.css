@@ -1,9 +1,13 @@
+.nav-item{
+    color: white;
+}
+
 
 .container-fluid{
-    background: #33DDFF;
+    background:#065A45;
 }
 .card-header{
-    background:#33DDFF;
+    background:#065A45;
 }
 .footer_part{
 

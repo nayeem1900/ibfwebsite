@@ -19,8 +19,14 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'Frontend\FrontendController@index')->name('index');
 Route::get('ibch', 'Frontend\FrontendController@ibch')->name('ibch');
+Route::get('ibmoh', 'Frontend\FrontendController@ibmoh')->name('ibmoh');
 Route::get('at_glance', 'Frontend\FrontendController@atglance')->name('atglance');
 Route::get('foundation_committee', 'Frontend\FrontendController@foundationcommittee')->name('foundationcommittee');
+Route::get('executive_committee', 'Frontend\FrontendController@executivecommittee')->name('executivecommittee');
+Route::get('audit_committee', 'Frontend\FrontendController@auditcommittee')->name('auditcommittee');
+Route::get('hospital_committee', 'Frontend\FrontendController@hospitalcommittee')->name('hospitalcommittee');
+Route::get('education_committee', 'Frontend\FrontendController@educationcommittee')->name('educationcommittee');
+Route::get('contact', 'Frontend\FrontendController@contact')->name('contact');
 Route::get('etender', 'Frontend\FrontendController@etender')->name('etender');
 Auth::routes();
 

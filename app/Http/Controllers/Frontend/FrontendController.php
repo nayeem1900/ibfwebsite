@@ -21,6 +21,10 @@ class FrontendController extends Controller
         $data['logo']=Logo::first();
         return view('frontend.pages.ibch',$data);
     }
+    public function ibmoh(){
+        $data['logo']=Logo::first();
+        return view('frontend.pages.ibmoh',$data);
+    }
     public function atglance(){
         $data['logo']=Logo::first();
         return view('frontend.pages.atglance',$data);
@@ -30,12 +34,33 @@ class FrontendController extends Controller
         $data['logo']=Logo::first();
         return view('frontend.pages.foundation_committee',$data);
     }
-
+    public function executivecommittee(){
+        $data['logo']=Logo::first();
+        return view('frontend.pages.executive_committee',$data);
+    }
+    public function auditcommittee(){
+        $data['logo']=Logo::first();
+        return view('frontend.pages.audit_committee',$data);
+    }
+    public function hospitalcommittee(){
+        $data['logo']=Logo::first();
+        return view('frontend.pages.hospital_committee',$data);
+    }
+    public function educationcommittee(){
+        $data['logo']=Logo::first();
+        return view('frontend.pages.education_committee',$data);
+    }
     public function etender(){
 
         $data['logo']=Logo::first();
         $data['allData']=Etender::all();
 
         return view('frontend.pages.etender',$data);
+
+    }
+
+    public function contact(){
+        $data['logo']=Logo::first();
+        return view('frontend.pages.contact',$data);
     }
 }

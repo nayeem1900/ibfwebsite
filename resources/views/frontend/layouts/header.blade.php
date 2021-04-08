@@ -20,7 +20,7 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="{{route('ibch')}}">Islami Bank Central Hospital</a></li>
-                                <li><a class="dropdown-item" href="#">Islami Bank Hospital Motijheel</a></li>
+                                <li><a class="dropdown-item" href="{{route('ibmoh')}}">Islami Bank Hospital Motijheel</a></li>
                                 <li><a class="dropdown-item" href="#">Islami Bank Hospital Mirpur</a></li>
                                 <li><a class="dropdown-item" href="#">Islami Bank Hospital Mughda</a></li>
                                 <li><a class="dropdown-item" href="#">Islami Bank Spetalize Hospital,Nayapalton</a></li>
@@ -44,7 +44,7 @@
                                 <li><a class="dropdown-item" href="#">Islami Bank Nursing College Rajsahi</a></li>
                                 <li><a class="dropdown-item" href="#">Islami Bank Institute of Health Technology Rajsahi</a></li>
                                 <li><hr class="dropdown-divider">Generala Education</li>
-                                <li><a class="dropdown-item" href="#">Islami Bank International School & College</a></li>
+                                <li><a class="dropdown-item" href="http://ibiscdhaka.com">Islami Bank International School & College</a></li>
                                 <li><a class="dropdown-item" href="#">Islami Bank Model School & College</a></li>
                                 <li><a class="dropdown-item" href="#">Islami Bank Mohila Madrasha</a></li>
                                 <li><hr class="dropdown-divider">Technical Education</li>
@@ -61,11 +61,11 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="{{route('atglance')}}">At a Glance</a></li>
                                 <li><hr class="dropdown-divider">Organizational Structure</li>
-                                <li><a class="dropdown-item" href="foundation_commite.html">Foundation Committees</a></li>
-                                <li><a class="dropdown-item" href="#">Executive Committee</a></li>
-                                <li><a class="dropdown-item" href="#">Audit Committee</a></li>
-                                <li><a class="dropdown-item" href="#">Hospital Committee</a></li>
-                                <li><a class="dropdown-item" href="#">IBF Education,Health Education & Social Work Committee</a></li>
+                                <li><a class="dropdown-item" href="{{route('foundationcommittee')}}">Foundation Committees</a></li>
+                                <li><a class="dropdown-item" href="{{route('executivecommittee')}}">Executive Committee</a></li>
+                                <li><a class="dropdown-item" href="{{route('auditcommittee')}}">Audit Committee</a></li>
+                                <li><a class="dropdown-item" href="{{route('hospitalcommittee')}}">Hospital Committee</a></li>
+                                <li><a class="dropdown-item" href="{{route('educationcommittee')}}">IBF Education,Health Education & Social Work Committee</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="#">Vission</a></li>
                                 <li><a class="dropdown-item" href="#">Coe Value</a></li>
@@ -93,7 +93,7 @@
                             <a class="nav-link" href="#">Career</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="{{route('contact')}}">Contact Us</a>
                         </li>
 
 
